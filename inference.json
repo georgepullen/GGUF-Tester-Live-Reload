@@ -1,0 +1,16 @@
+{
+    "model_path": "path/to/your/model",
+    "n_gpu_layers": 35,
+    "n_ctx": 4096,
+    "use_mmap": true,
+    "verbose": false,
+    "completion_config": {
+        "max_tokens": 4096,
+        "stream": true,
+        "stop": [],
+        "temperature": 0.2,
+        "top_k": 40,
+        "top_p": 0.95,
+        "repeat_penalty": 1.2
+    }
+}
